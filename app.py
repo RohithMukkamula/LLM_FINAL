@@ -16,18 +16,18 @@ embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 # Set API keys
 
-os.environ["OPENAI_API_KEY"] = 'f6f4b8aec16b4094bfe0b8e063dbf1a3'
+os.environ["OPENAI_API_KEY"] = 'open_ai_key'
 
 
 
 azure_config = {
-    "base_url": "https://dono-rag-demo-resource-instance.openai.azure.com/",
-    "model_deployment": "GPT_35_TURBO_DEMO_RAG_DEPLOYMENT_DONO",
-    "model_name": "gpt-35-turbo",
-    "embedding_deployment": "ADA_RAG_DONO_DEMO",
-    "embedding_name": "text-embedding-ada-002",
-    "api-key": 'f6f4b8aec16b4094bfe0b8e063dbf1a3',
-    "api_version": "2024-02-01"
+    "base_url": "",
+    "model_deployment": "",
+    "model_name": "",
+    "embedding_deployment": "",
+    "embedding_name": "",
+    "api-key": '',
+    "api_version": ""
 }
 
 # Set Streamlit page configuration
